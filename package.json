@@ -1,5 +1,5 @@
 {
-  "name": "webpack-px2vw-loader",
+  "name": "px2vw-view-loader",
   "version": "1.0.0",
   "description": "transform px to vw",
   "main": "index.js",
@@ -9,8 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ashleygwilliams/my_package.git"
+    "url": "https://github.com/herorest/px2vw.git"
   },
+  "keywords": ["webpack","px2vw","vw"],
   "author": "herorest",
   "license": "ISC"
 }
