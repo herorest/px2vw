@@ -3,7 +3,7 @@
 
 ### 安装：
 ```javascript
-npm install element-ui -S
+npm i px2vw-view-loader
 ```
 
 
@@ -13,7 +13,7 @@ npm install element-ui -S
 module: {
   rules: [{
     test: /\.css$/,
-    loader:'webpack-px2vw-loader',
+    loader:'px2vw-view-loader',
       query:{
         viewportWidth: 750,
         viewportUnit: 'vw',
