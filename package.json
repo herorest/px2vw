@@ -1,6 +1,6 @@
 {
   "name": "px2vw-view-loader",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "transform px to vw",
   "main": "index.js",
   "scripts": {

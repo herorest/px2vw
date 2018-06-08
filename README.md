@@ -23,6 +23,31 @@ module: {
   }]
 }
 ```
+也支持聚合的写法
+```javascript
+module: {
+  rules: [{
+    test: /\.css$/,
+    use: ExtractCSS.extract({
+      fallback: "style-loader",
+      use: [{
+        loader: 'px2vw-view-loader',
+        query: {
+          viewportWidth: 750,
+          viewportUnit: 'vw',
+          minPixelValue: 1,
+          decimal: 3
+        }
+      }, {
+        loader: "css-loader"
+      }]
+    })
+  }]
+}
+```
+
+
+
 
 ### 参数：
 | 参数名        | 默认值   |  备注  |
